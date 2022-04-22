@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>taller de practica 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+     <header>
+      
+   
+      <div class="menu" id="mitopmenu">
+     
+       <img src="img/Serpentin.webp">
+        <a href="#home" >Inicio</a>
+        <a href="#news">El Club</a>
+        <a href="#contact">Actividades</a>
+        <a href="#about">Torneo</a>
+        <a href="#about">Inscripcion en linea</a>
+        <a href="#about" class="active">videos</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+     </header>
+  
+
+     <div class="titulo">
+       <p>-Videos de nuestras clases-</p>
+     </div>
+
+     <div class="anuncio">
+      <div class="item1">
+           
+      <article>
+        <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="360px" muted controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' loop>
+          <source src="videos/211212_03_Jakarta_4k_101.mp4" type='video/mp4' />
+        </video>
+          <h1>Ejercicios de concentración</h1>
+          <span>Podras practicar diferentes ejercicios de concentración para poder tener un mejor desempeño en todas la batallas a al que te enfretes</span>
+        </article>
+      </a>
+  </div>
+  <div class="item2">
+    <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="360px" muted controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' loop>
+      <source src="videos/211212_03_Jakarta_4k_118.mp4" type='video/mp4' />
+    </video>
+    <article>
+      <h1>Adentrate en nuestra cultura</h1>
+      <span>Practicaremos diferentes bailes para que te adentres a nuestra cultura y puedas encontrar un estilo el cual puedas reflear la belleza de las artes marciales </span>
+    </article>
+  </a>
+  </div>
+    </div>
+
+  <footer>
+  <img src="img/facebook.png">
+  <img src="img/instagram.png">
+  <img src="img/youtube.png">
+  <img src="img/gorjeo.png">
+
+  <p> Todos los derechos reservados | Carlos Leandro García Mena </p>
+  
+  </footer>
+  </body>
+
+
+
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("mitopmenu");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+</script>
+
+
+
+</html>
